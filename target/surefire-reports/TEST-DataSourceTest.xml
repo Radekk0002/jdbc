@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DataSourceTest" time="0.965" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\Radek\Desktop\jdbc\target\test-classes;C:\Users\Radek\Desktop\jdbc\target\classes;C:\Users\Radek\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.4.0.0.1\ojdbc8-21.4.0.0.1.jar;C:\Users\Radek\.m2\repository\com\h2database\h2\1.4.192\h2-1.4.192.jar;C:\Users\Radek\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Radek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Radek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Radek\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Radek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Radek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Radek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Radek\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Radek\AppData\Local\Temp\surefire7063674692673016514\surefirebooter1830390382136463972.jar C:\Users\Radek\AppData\Local\Temp\surefire7063674692673016514 2021-12-29T00-18-23_955-jvmRun1 surefire3956497271776354668tmp surefire_07509630702152652584tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Radek\Desktop\jdbc\target\test-classes;C:\Users\Radek\Desktop\jdbc\target\classes;C:\Users\Radek\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.4.0.0.1\ojdbc8-21.4.0.0.1.jar;C:\Users\Radek\.m2\repository\com\h2database\h2\1.4.192\h2-1.4.192.jar;C:\Users\Radek\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Radek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Radek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Radek\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Radek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Radek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Radek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Radek\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Radek"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre"/>
+    <property name="basedir" value="C:\Users\Radek\Desktop\jdbc"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Radek\AppData\Local\Temp\surefire7063674692673016514\surefirebooter1830390382136463972.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\resources.jar;C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\rt.jar;C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\sunrsasign.jar;C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\jsse.jar;C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\jce.jar;C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\charsets.jar;C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\jfr.jar;C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0-262-b10"/>
+    <property name="user.name" value="Radek"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Radek\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Radek\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.version" value="1.8.0-262"/>
+    <property name="user.dir" value="C:\Users\Radek\Desktop\jdbc"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\java-se-8u41-ri\bin;E:\Python3.10\Scripts\;E:\Python3.10\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Git\cmd;E:\NodeJS\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;E:\Ruby30-x64\bin;F:\Gradle\gradle-7.3.1\bin;F:\Android_SDK\platform-tools;C:\Users\Radek\AppData\Local\Microsoft\WindowsApps;C:\Users\Radek\AppData\Roaming\npm;C:\Users\Radek\.dotnet\tools;E:\Microsoft VS Code\bin;E:\RubyMine 2021.2.3\bin;E:\PyCharm 2021.2.2\bin;C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="OpenLogic-OpenJDK"/>
+    <property name="java.vm.version" value="25.71-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\openlogic-openjdk-8u262-b10-win-64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="openConnection" classname="DataSourceTest" time="0.048"/>
+  <testcase name="delete" classname="DataSourceTest" time="0.006"/>
+  <testcase name="update" classname="DataSourceTest" time="0.004"/>
+  <testcase name="updateNonExisting" classname="DataSourceTest" time="0.004"/>
+  <testcase name="insertBooks" classname="DataSourceTest" time="0.004"/>
+  <testcase name="deleteNonExisting" classname="DataSourceTest" time="0.002"/>
+  <testcase name="insertBook" classname="DataSourceTest" time="0.002"/>
+</testsuite>
